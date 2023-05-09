@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 // set the URL for the API endpoint
-const url = "http://HelloWorldNVirginiaALB-2044323856.us-east-1.elb.amazonaws.com:3000/helloWorld?name=Fuad";
+const url = "http://localhost:3000/helloWorld?name=Fuad";
 
 // set the number of requests to send
 const numRequests = 2500;
